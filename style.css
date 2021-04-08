@@ -1,0 +1,67 @@
+body {
+  background-color: rgba(10, 10, 10, 0.89);
+}
+
+#logo-box {
+    padding: 80px 0px 130px;
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+  height: 350px;
+  width: 350px;
+  top: 0;
+  left: 30;
+  background-image: url("https://www.popsockets.com/on/demandware.static/-/Sites-popsockets-master-catalog/default/dwae579200/images/hi-res/100737_0.png");
+  background-position: center;
+  background-size: 120%;
+  position: relative;
+  border-radius: 50%;
+  box-sizing: 0px;
+  box-shadow: 0px 0px 45px 8px orangered;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  height: 400px;
+  padding: 35px;
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+}
+.inner-row {
+  height: 80%;
+  width: 300px;
+  padding: 3px;
+  margin: 0px 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 2px lightgray solid;
+  box-shadow: 0px 0px 10px 3px whitesmoke;
+}
+
+.inner-row:hover {
+    transform: scale(1.2);
+    box-shadow: 
+    0px 0px 10px 3px whitesmoke,
+    0px 0px 20px 10px orangered;
+}
+
+.inner-row p {
+    font-size: large;
+    color: white;
+}
+
+.inner-row span {
+    font-style: italic;
+    font-size: medium;
+}
+
+a {
+    text-decoration: none;
+}
